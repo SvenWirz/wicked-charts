@@ -1,6 +1,7 @@
 package de.adesso.wickedcharts.chartjs.chartoptions;
 
 import java.io.Serializable;
+import java.util.List;
 
 import lombok.experimental.Accessors;
 
@@ -12,8 +13,18 @@ import lombok.experimental.Accessors;
 @lombok.Data
 public class Options implements Serializable{
 	private static final long serialVersionUID = 1L;
+	
+	//responsive options
 	private Boolean responsive;
+	private Number responsiveAnimationDuration;
 	private Boolean maintainAspectRatio;
+	
+	//Event options
+	private List<EventType> events;
+	
+	
+	
+	
 	private Boolean spanGaps;
 	private Legend legend;
 	private Title title;

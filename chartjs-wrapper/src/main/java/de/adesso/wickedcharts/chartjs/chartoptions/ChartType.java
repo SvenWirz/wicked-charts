@@ -11,7 +11,7 @@ public enum ChartType implements JsonValueEnum {
 	BAR("bar"),
 	HORIZONTAL_BAR("horizontalBar"),
 	STACKED_BAR("bar"),
-	PIE("pie"),
+	PIE("pie"), 
 	RADAR("radar"),
 	SCATTER("scatter"),
 	DOUGHNUT("doughnut"),

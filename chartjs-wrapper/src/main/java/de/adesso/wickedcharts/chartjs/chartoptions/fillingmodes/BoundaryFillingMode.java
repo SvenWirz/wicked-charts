@@ -12,7 +12,7 @@ public enum BoundaryFillingMode implements FillingMode {
 		this.value = value;
 	}
 	
-	@Override
+	@Override 
 	public String getValue() {
 		return value;
 	}

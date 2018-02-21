@@ -15,6 +15,7 @@ public class Animation implements Serializable {
 	private Boolean animateScale;
 	private Boolean animateRotate;
 	private Integer duration;
+	private EasingType easing;
 	private CallbackFunction onProgress;
 	private CallbackFunction onComplete;
 }
