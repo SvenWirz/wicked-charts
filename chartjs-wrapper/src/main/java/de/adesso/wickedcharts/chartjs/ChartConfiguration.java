@@ -9,7 +9,7 @@ import lombok.experimental.Accessors;
 
 
 @Accessors(chain = true)
-@lombok.Data
+@lombok.Data 
 public class ChartConfiguration {
 	private ChartType type;
 	private Data data;

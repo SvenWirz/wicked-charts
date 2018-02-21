@@ -40,7 +40,7 @@ public class ShowcaseApplication extends WebApplication {
 	@Override
 	public Class<? extends WebPage> getHomePage() {
 		return HomepageChartJs.class;
-	}
+	} 
 
 	/**
 	 * @see org.apache.wicket.Application#init()

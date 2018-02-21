@@ -10,5 +10,7 @@ public class Hover implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	private HoverMode mode;
-	private Boolean intersect;
+	private Boolean intersect;	
+	private String axis;
+	private Number animationDuration;
 }

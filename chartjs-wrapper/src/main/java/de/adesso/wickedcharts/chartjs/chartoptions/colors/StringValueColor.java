@@ -14,7 +14,7 @@ public class StringValueColor extends Color {
 	}
 
 	public StringValueColor(String string) {
-		this.colorname = string;
+		this.colorname = string; 
 	}
 	
 }

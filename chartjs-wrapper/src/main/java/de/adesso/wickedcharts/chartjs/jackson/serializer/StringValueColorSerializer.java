@@ -18,5 +18,4 @@ public class StringValueColorSerializer extends JsonSerializer<StringValueColor>
 			throws IOException, JsonProcessingException {
 		gen.writeRawValue(String.format(FORMAT, value.getColorname()));
 	}
-
 }

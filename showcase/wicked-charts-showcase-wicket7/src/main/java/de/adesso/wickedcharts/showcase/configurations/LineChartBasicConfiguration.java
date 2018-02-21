@@ -6,6 +6,7 @@ import de.adesso.wickedcharts.chartjs.chartoptions.AxesScale;
 import de.adesso.wickedcharts.chartjs.chartoptions.ChartType;
 import de.adesso.wickedcharts.chartjs.chartoptions.Data;
 import de.adesso.wickedcharts.chartjs.chartoptions.Dataset;
+import de.adesso.wickedcharts.chartjs.chartoptions.EventType;
 import de.adesso.wickedcharts.chartjs.chartoptions.Hover;
 import de.adesso.wickedcharts.chartjs.chartoptions.HoverMode;
 import de.adesso.wickedcharts.chartjs.chartoptions.Options;

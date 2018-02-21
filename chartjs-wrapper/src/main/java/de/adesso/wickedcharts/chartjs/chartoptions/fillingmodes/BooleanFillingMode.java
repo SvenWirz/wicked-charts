@@ -9,7 +9,7 @@ public enum BooleanFillingMode implements FillingMode {
 	
 	private BooleanFillingMode(Boolean value) {
 		this.value = value;
-	}
+	} 
 	
 	@Override
 	public Boolean getValue() {
