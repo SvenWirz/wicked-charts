@@ -1,3 +1,4 @@
+def name = 'wicked-charts-wicket15'
 dependencies {
 	compile project(':highcharts-wrapper')
 	compile 'org.apache.wicket:wicket-core:1.5.13'

@@ -1,3 +1,5 @@
+def name = 'wicked-charts-wicket7'
+
 dependencies {
 	compile project(':highcharts-wrapper')
 	compile project(':chartjs-wrapper')

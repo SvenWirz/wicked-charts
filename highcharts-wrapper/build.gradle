@@ -1,3 +1,5 @@
+def name = 'highcharts-wrapper'
+
 dependencies {
 	testCompile 'junit:junit:4.12'
 	compile 'com.fasterxml.jackson.core:jackson-annotations:2.8.1'
