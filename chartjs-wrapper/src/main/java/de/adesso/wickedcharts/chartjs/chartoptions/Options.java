@@ -21,10 +21,6 @@ public class Options implements Serializable{
 	
 	//Event options
 	private List<EventType> events;
-	
-	
-	
-	
 	private Boolean spanGaps;
 	private Legend legend;
 	private Title title;
