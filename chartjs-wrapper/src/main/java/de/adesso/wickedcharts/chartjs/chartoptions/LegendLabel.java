@@ -12,7 +12,10 @@ public class LegendLabel implements Serializable{
 	private boolean usePointStyle;
 	private Color fontColor;
 	private String fontFamily;
-	private Number fontSize;
+	private Integer fontSize;
 	private FontStyle fontStyle;
-
+	private Integer boxWidth;
+	private Padding padding;
+	private Callback generateLabels;
+	private Callback filter;
 }
