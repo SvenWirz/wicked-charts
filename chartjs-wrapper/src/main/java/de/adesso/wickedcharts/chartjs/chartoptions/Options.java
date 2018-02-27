@@ -36,4 +36,12 @@ public class Options implements Serializable{
 	private Double aspectRatio;
 	private Position position;
 	private Layout layout;
+	
+	// Doughnut- & Pie-Chart options
+	private Number cutoutPercentage;
+	private Number rotation;
+	private Number circumference;
+	
+	// Polar Chart options
+	private Number startAngle;
 }
